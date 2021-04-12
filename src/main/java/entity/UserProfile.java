@@ -1,8 +1,7 @@
-package model;
+package entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-import lombok.Generated;
 import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.time.LocalDate;
