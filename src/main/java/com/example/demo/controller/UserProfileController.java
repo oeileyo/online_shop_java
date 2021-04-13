@@ -1,11 +1,11 @@
-package controller;
+package com.example.demo.controller;
 
-import entity.UserProfile;
+import com.example.demo.entity.UserProfile;
+import com.example.demo.service.UserProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UserProfileService;
 
 import java.util.List;
 

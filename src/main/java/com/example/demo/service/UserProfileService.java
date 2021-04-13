@@ -1,7 +1,7 @@
-package service;
+package com.example.demo.service;
 
-import entity.UserProfile;
-import repository.UserProfileRepository;
+import com.example.demo.entity.UserProfile;
+import com.example.demo.repository.UserProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

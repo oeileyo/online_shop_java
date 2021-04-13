@@ -1,11 +1,11 @@
-package controller;
+package com.example.demo.controller;
 
-import entity.Manufacturer;
+import com.example.demo.entity.Manufacturer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ManufacturerService;
+import com.example.demo.service.ManufacturerService;
 
 import java.util.List;
 

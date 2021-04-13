@@ -1,4 +1,4 @@
-package entity;
+package com.example.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
@@ -9,9 +9,13 @@ import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
+@Table(name = "user_profiles")
 public class UserProfile {
     @Id
-    @OneToOne(targetEntity = User.class)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @OneToOne (optional=false, mappedBy="userProfile")
     private User user;
 
     private String first_name;

@@ -1,9 +1,9 @@
-package service;
+package com.example.demo.service;
 
-import entity.Model;
+import com.example.demo.entity.Model;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ModelRepository;
+import com.example.demo.repository.ModelRepository;
 
 import java.util.List;
 
